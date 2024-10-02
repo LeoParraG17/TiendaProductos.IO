@@ -1,0 +1,43 @@
+{
+    "titulo_pagina": "Mi Tienda en Línea",
+    "datos_tienda": {
+        "nombre": "Leonardo Parra",
+        "correo": "contacto@leonardoparra.com",
+        "telefono": "123456789",
+        "direccion": "Calle Falsa 123",
+        "horario_atencion": {
+            "lunes_a_viernes": "9:00 AM - 6:00 PM",
+            "sabados": "9:00 AM - 2:00 PM",
+            "domingos": "Cerrado"
+        }
+    },
+    "productos": [
+        {
+            "nombre": "Producto 1",
+            "descripcion": "Descripción del producto 1",
+            "imagenes": ["assets/img/producto1.jpg"],
+            "reseñas": [
+                {
+                    "usuario": "Juan Pérez",
+                    "comentario": "Buen producto, me gustó mucho.",
+                    "calificacion": 5,
+                    "fecha": "2024-09-28"
+                }
+            ]
+        },
+        {
+            "nombre": "Producto 2",
+            "descripcion": "Descripción del producto 2",
+            "imagenes": ["assets/img/producto2.jpg"],
+            "reseñas": []
+        }
+    ],
+    "reseñas_destacadas": [
+        {
+            "producto": "Producto 1",
+            "comentario": "Increíble calidad, lo recomiendo.",
+            "calificacion": 4,
+            "usuario": "María López"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  padding: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+/* Section titles */
+h2 {
+  color: #343a40;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  border-bottom: 3px solid #343a40;
+  display: inline-block;
+}
+
+/* Table styling */
+.table {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #ffffff;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.table th, .table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table img {
+  border-radius: 8px;
+}
+
+/* Footer and store information styling */
+footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  margin-top: 3rem;
+  border-radius: 8px 8px 0 0;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+#horario_atencion {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#horario_atencion p {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+/* Cards styling */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .table {
+      width: 100%;
+      font-size: 0.9rem;
+  }
+
+  .navbar-brand {
+      font-size: 1.25rem;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 0.9rem;
+  }
+}
